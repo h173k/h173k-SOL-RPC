@@ -10,6 +10,8 @@
 const ALLOWED_ORIGINS = new Set([
   "https://h173k-wallet.pages.dev",
   "https://h173k-burn-chat.pages.dev",
+  "http://localhost:3000",
+  "https://localhost:3000"
 ]);
 
 // ── helpers ───────────────────────────────────────────────────────────────────
