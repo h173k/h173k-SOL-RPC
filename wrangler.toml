@@ -1,6 +1,7 @@
-# wrangler.toml – h173k Solana RPC Proxy
-# Place this file in the ROOT of your repository.
-
-name = "h173k-rpc-proxy"
+name = "h173ksolrpc"
+main = "index.js"
 compatibility_date = "2024-09-23"
-pages_build_output_dir = "public"
+
+# Zmienne ustaw w Dashboard → Worker → Settings → Variables (jako Encrypted)
+# SOLANA_RPC_URL = "https://your-rpc.com"
+# RPC_SECRET     = ""
